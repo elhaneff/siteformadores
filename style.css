@@ -5,13 +5,13 @@
 
 body {
 
-    background-color: #4b91fb;
+    background-color: #0C8AFF;
     
     
     }
     
     .cabecalho{
-    background-color: rgb(190, 58, 190);
+    background-color: rgba #E3C4EB (87, 58, 190, 0.596);
     display: flex;
     justify-content: space-around;
     align-items: center;
