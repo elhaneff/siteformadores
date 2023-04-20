@@ -6,13 +6,13 @@
 
 body {
 
-background-color: #fafafa;
+background-color: #a871b6;
 
 
 }
 
 .cabecalho{
-background-color: rgb(139, 137, 135);
+background-color: rgb(236, 193, 250);
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -45,7 +45,7 @@ border-radius: 100px;
 
 .escola{
     display: flex;
-    background-color: darkgray;
+    background-color: rgb(229, 128, 233);
     justify-content: space-around;
     align-items: center;
     margin: 20px;
