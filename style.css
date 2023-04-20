@@ -3,66 +3,68 @@
     padding: 0%;
 }
 
+
 body {
 
-    background-color: #A798CF;
-    
-    
-    }
-    
-    .cabecalho{
-    background-color: rgba #E3C4EB(87, 58, 190, 0.596);
+background-color: #fafafa;
+
+
+}
+
+.cabecalho{
+background-color: rgb(139, 137, 135);
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.cabecalho__titulo{
+
+    display: inline;
+}
+
+.cabecalho__imagem {
+
+width: 130px;
+height: 160px;
+border-radius: 100px;
+
+}
+
+.cabecalho__menu{
+    display: inline;
+
+}
+
+.cabecalho__menu-item{
+
+    display: inline;
+    margin-left: 20px;
+    font-size: 32px;
+}
+
+.escola{
     display: flex;
+    background-color: darkgray;
     justify-content: space-around;
     align-items: center;
-    }
-    
-    .cabecalho__titulo{
-    
-        display: inline;
-    }
-    
-    .cabecalho__imagem {
-    
-    width: 130px;
-    height: 160px;
-    border-radius: 100px;
-    
-    }
-    
-    .cabecalho__menu{
-        display: inline;
-    
-    }
-    
-    .cabecalho__menu-item{
-    
-        display: inline;
-        margin-left: 20px;
-        font-size: 32px;
-    }
+    margin: 20px;
+    border-radius: 40px;
 
-    .escola{
-        
-        display: flex;
-            background-color: darkgray;
-            justify-content: space-around;
-            align-items: center;
-            margin: 20px;
-            border-radius: 40px;
-            
-    }
-    
-    .professores {
-    
-        background-color: #FBDF4B;
-    }
-    .professores__div-imagem {
-        width: 120px;
-        height: auto;
-    }
-    .escola__imagem {
-    width: 300px;
+}
+
+.escola__imagem {
+width: 300px;
+height: auto;
+
+}
+
+.professores {
+
+    background-color: #FBDF4B;
+}
+
+.professores__div-imagem {
+    width: 120px;
     height: auto;
-    
-    }
+}
