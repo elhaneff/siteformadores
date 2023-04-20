@@ -52,3 +52,12 @@ body {
     
         background-color: #FBDF4B;
     }
+    .professores__div-imagem {
+        width: 120px;
+        height: auto;
+    }
+    .escola__imagem {
+    width: 300px;
+    height: auto;
+    
+    }
