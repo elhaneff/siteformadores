@@ -6,13 +6,13 @@
 
 body {
 
-background-color: #a871b6;
+background-color: #0C8AFF;
 
 
 }
 
 .cabecalho{
-background-color: rgb(236, 193, 250);
+background-color: #E3C4EB;
 display: flex;
 justify-content: space-around;
 align-items: center;
@@ -45,7 +45,7 @@ border-radius: 100px;
 
 .escola{
     display: flex;
-    background-color: rgb(229, 128, 233);
+    background-color: #E3C4EB;
     justify-content: space-around;
     align-items: center;
     margin: 20px;
@@ -61,7 +61,7 @@ height: auto;
 
 .professores {
 
-    background-color: #9ed1e9;
+    background-color: #0C8AFF;
 }
 
 .professores__div-imagem {
