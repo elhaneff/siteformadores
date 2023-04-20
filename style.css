@@ -1,11 +1,41 @@
-header{ 
-    background-color: #E3C4EB;
-    color: blueviolet;
-    .cabecalho-imagem{
-        width: 20%;
-    }
+
+body {
+
+    background-color: #b54bfb;
+    
     
     }
     
+    .cabecalho{
+    background-color: rgb(139, 137, 135);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    .cabecalho__titulo{
+    
+        display: inline;
+    }
+    
+    .cabecalho__imagem {
+    
+    width: 130px;
+    height: 160px;
+    border-radius: 100px;
+    
+    }
+    
+    .cabecalho__menu{
+        display: inline;
+    
+    }
+    
+    .cabecalho__menu-item{
+    
+        display: inline;
+        margin-left: 20px;
+        font-size: 32px;
+    }
 
    
