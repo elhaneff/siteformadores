@@ -68,3 +68,14 @@ height: auto;
     width: 120px;
     height: auto;
 }
+professores {
+    exibição : grade;
+    justificar-conteúdo : centro;
+    grid-template-columns :   1 fr  1 fr  1 fr  1 fr  1 fr ;
+    itens de alinhamento : centro;
+    grid-template-columns :   1 fr  1 fr  1 fr ;
+    itens de lugar : centro;
+    justificar-itens : cen;
+    cor de fundo :  # FEC229 ;
+
+}
