@@ -1,53 +1,85 @@
-* {
-    margem :  0 % ;
-    preenchimento :  0 % ;
-}
-corpo {
-    font-family :  'Sono' , sem serifa;
-    cor de fundo :  # fafafa ;
-}
-. cabecalho {
-    cor de fundo :  rgb ( 139 ,  137 ,  135 );
-    exibição : flexível;
-    justificar-conteúdo : espaço ao redor;
-    itens de alinhamento : centro;
-}
-. cabecalho__titulo {
-    exibição : em linha;
-}
-. cabecalho__imagem {
-    largura :  130 px ;
-    altura :  160 px ;
-    raio da borda :  100 px ;
-}
-. cabecalho__menu {
-    exibição : em linha;
-}
-. cabecalho__menu-item {
-    exibição : em linha;
-    margem esquerda :  20 px ;
-    tamanho da fonte :  32 px ;
-}
-. escola {
-    exibição : flexível;
-    cor de fundo : cinza escuro;
-    justificar-conteúdo : espaço ao redor;
-    itens de alinhamento : centro;
-    margem :  20 px ;
-    raio da borda :  40 px ;
-}
-. escola__imagem {
-    largura :  300 px ;
-    altura : automático;
-}
-. professores {
-    exibição : grade;
-    justificar-conteúdo : centro;
-    grid-template-columns :   1 fr  1 fr  1 fr  1 fr  1 fr ;
-    itens de alinhamento : centro;
-    grid-template-columns :   1 fr  1 fr  1 fr ;
-    itens de lugar : centro;
-    justificar-itens : cen;
-    cor de fundo :  # FEC229 ;
+*{
+    margin: 0%;
+    padding: 0%;
+    }
 
-}
+    body{
+        font-family: 'Anuphan', sans-serif;
+
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #3E407C;
+        border-radius: 0px 0px 0px 400px;
+        }
+
+        .cabecalho__imagem {
+
+            width: 130px;
+            height: 157px;
+            border-radius: 100px;
+
+        }
+
+        .cabecalho__titulo , .cabecalho__menu {
+
+            display: inline;
+
+        }
+
+        .cabecalho__menu-item{
+            font-size: 32px;
+            color: rgb(248, 248, 245);
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: rgb(248, 246, 246);
+            display: inline;
+            margin: 0px 0px 0px 20px;
+        }
+
+        .escola{
+            margin: 20px;
+            padding: 20px;
+            background-color:#3E407C;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 40px;
+        }
+
+        .escola__imagem{
+            margin: 20px;
+            width: 300px;
+            height: auto;
+        }
+        .escola__titulo{
+
+            text-align: center;
+        }
+        .escola__paragrafo{
+            text-align: justify;
+        }
+
+        .professores{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
+            grid-template-rows: auto auto;
+            background-color: #8f7ca5;
+            border-radius: 40px;
+            margin: 20px;
+            justify-items: center;
+            gap: 20px;
+        } 
+
+        .professores__div {
+            text-align: center;
+
+        }
+
+        .professores__div-imagem{
+            width: 120px;
+            height: auto;
+
+        }
