@@ -12,7 +12,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: #3E407C;
+        background-color: #f5d7e9;
         border-radius: 0px 0px 0px 400px;
         }
 
@@ -42,7 +42,7 @@
         .escola{
             margin: 20px;
             padding: 20px;
-            background-color:#f3b1e8;
+            background-color:#bd74da;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -66,7 +66,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr ;
             grid-template-rows: auto auto;
-            background-color: #c2aadd;
+            background-color: #d0eef1;
             border-radius: 40px;
             margin: 20px;
             justify-items: center;
